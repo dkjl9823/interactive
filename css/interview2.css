@@ -1,3 +1,57 @@
 body {
-  background: lime;
+    background: #fff;
+  font-family: "Helvetica-neue", Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 20px;
+      display: block;
+}
+
+.content {
+    max-width: 32.5em;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#contents {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.6em;
+  color: #333;
+}
+
+#prelude, #some-things, #conversation {
+  font-size: 1.3em;
+  color: #333;
+  font-style: normal;
+}
+
+.question {
+  font-weight: bold;
+  color: #333;
+}
+
+#nobold {
+  font-weight: normal;
+}
+
+#footnote {
+  font-size: 0.75em;
+  line-height: 1.25em;
+}
+
+.peter {
+  font-weight: normal;
 }

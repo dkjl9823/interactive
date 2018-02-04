@@ -1,6 +1,9 @@
 body {
-  background: wheat;
-  color: saddlebrown;
+  background: whitesmoke;
+  color: #333;
+  font-family: 'Source Code Pro', monospace;
+  line-height: 1.5em;
+  border: 0.25em
 }
 
 .webring {
@@ -13,4 +16,44 @@ body {
 hr{
   width: 500px;
   margin: 2em 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration-style: none;
+  border-bottom: 10px #333;
+}
+
+a:hover {
+  color: red;
+  background-color: gold;
+  text-decoration-style: none;
+  border-bottom: 10px #333;
+  padding-bottom: 0.25em;
+}
+
+.hiddenlink {
+  text-decoration: none;
+}
+
+#nocolorlink:hover {
+  background: none;
+}
+
+.smalllink {
+  font-size: 0.75em;
 }
