@@ -1,27 +1,22 @@
 body {
-  background: whitesmoke;
-  color: darkred;
-  font-size: 20px;
-  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
-}
-
-head {
-  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+  background: white;
+  color: #333743;
+  font-size: 18px;
+  line-height: 1.8em;
+  font-family: 'Merriweather', serif;
 }
 
 #container {
-  max-width: 600px;
+  max-width: 550px;
   margin: 0 auto;
-  text-align: justify;
+  align: center;
 }
 
 #contents {
   position: fixed;
   top: 0.4em;
   left: 0.4em;
-  color: darkred;
   padding: 1em;
-  border: 1px dashed darkred;
 }
 
 #contents ul {
@@ -29,32 +24,23 @@ head {
   list-style-type: none;
 }
 
-#contents a {
-  color: darkred;
-}
-
 #contents a:hover {
-  background: darkred;
-  color: whitesmoke;
   padding: 0.2em 0em 0em 0em;
 }
 
+h1, h2 {
+  margin: 0.4em auto;
+}
+
 h1 {
-  width: 600px;
-  color: darkred;
-  text-align: center;
-  font-size: 2em;
-  margin-bottom: 2em;
-  border: 1px dashed darkred;
-  padding: 1em 0em;
-  margin: 0em auto;
-  margin-bottom: 1.5em;
+  font-size: 3em;
+  line-height: 1.25em;
+  text-align: left;
+  color: green;
 }
 
 h2 {
-  border: 1px dashed darkred;
-  padding: 0.25em;
-  margin: 1em auto;
+  font-size: 1.5em;
 }
 
 p .prelude {
@@ -62,26 +48,24 @@ p .prelude {
 }
 
 a {
-  color: salmon;
+  color: green;
   text-decoration: none;
 }
 
 a:hover {
-  background: salmon;
-  color: whitesmoke;
+  text-decoration: underline double gold;
+  color: dimgrey;
   padding: 0.2em 0em 0em 0em;
-}
-
-a:visited {
-  color: firebrick;
 }
 
 .highlight {
-  background: darkred;
-  color: whitesmoke;
-  padding: 0.2em 0em 0em 0em;
+  text-decoration: underline double gold;
 }
 
 .credit {
+  font-size: 0.75em;
+}
+
+#intro {
   font-size: 0.75em;
 }
