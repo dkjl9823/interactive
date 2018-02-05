@@ -1,0 +1,188 @@
+/* FRAME */
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: burlywood;
+	position: relative;
+}
+
+/* EXAMPLES  */
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+}
+
+#square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 160px;
+	left: 600px;
+	position: absolute;
+}
+
+/* STILL LIFE */
+
+.object {
+	position: absolute;
+}
+
+#paper {
+	width: 700px;
+height: 250px;
+-webkit-transform: skew(-30deg);
+	 -moz-transform: skew(-30deg);
+		 -o-transform: skew(-30deg);
+background: #23A062;
+bottom: 0.75em;
+left: 7em;
+}
+
+#orange {
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	background: darkorange;
+	bottom: 6em;
+	left: 15em;
+}
+
+#kiwi {
+	width: 7em;
+	height: 5em;
+	border-radius: 50%;
+	background: saddlebrown;
+	bottom: 6.5em;
+	left: 12em;
+}
+
+#vase {
+	width: 11em;
+	height: 15em;
+	bottom: 8em;
+	left: 35em;
+}
+
+#vase #top {
+	border-bottom: 6em solid white;
+	border-left: 3em solid transparent;
+	border-right: 3em solid transparent;
+	height: 0;
+	width: 60%;
+}
+
+#vase #middle {
+	height: 2.1em;
+	width: 12.65em;
+	background: whitesmoke;
+	z-index: -1;
+}
+
+#vase #bottom {
+	border-top: 6em solid lightgrey;
+	border-left: 3em solid transparent;
+	border-right: 3em solid transparent;
+	height: 0;
+	width: 60%;
+	bottom: 0;
+}
+
+#candle {
+	width: 6em;
+	height: 8em;
+	bottom: 10em;
+	left: 30em;
+	background: rgba(255,255,255,0.2);
+	border: 5px solid rgba(255,255,255,0.2);
+}
+
+#candle #wax {
+	background: brown;
+	height: 70%;
+	width: 100%;
+	bottom: 0;
+}
+
+#candle #flame {
+	background: gold;
+	width: 13%;
+	height: 25%;
+	border-radius: 50%;
+	top: 0.6em;
+	left: 44%;
+}
+
+#candle #wax-top {
+	background: maroon;
+	width: 100%;
+	height: 25%;
+	border-radius: 50%;
+	top: 1.5em;
+}
+
+#rose {
+	width: 15em;
+  height: 3em;
+  transform: rotate(60deg);
+  left: 22em;
+  top: 24em;
+}
+
+#rose #stem {
+	width: 0em;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 18em solid darkgreen;
+	border-bottom: 5px solid transparent;
+	top: 1.25em;
+	left: -2em;
+}
+
+#rose #plastic {
+	width: 0em;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 15em solid rgba(255,255,255,0.3);
+    border-bottom: 30px solid transparent;
+}
+
+#rose #flower {
+	width: 3.75em;
+	height: 3.75em;
+	border-radius: 50%;
+	background: #94001c;
+	top: 0em;
+	left: 12.78em;
+}
+
+#rose #flowertop {
+	width: 2.5em;
+  height: 3.75em;
+  border-radius: 50%;
+  background: firebrick;
+  top: 0em;
+  left: 14em;
+}
