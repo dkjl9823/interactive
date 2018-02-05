@@ -1,16 +1,20 @@
 body {
-  position: relative center;
-  background: blue;
-  color: blue;
   font-family: 'EB Garamond', serif;
   font-size: 1em;
+  background: blue;
+}
+
+.text {
+  position: relative center;
+  color: blue;
   text-align: left;
+  font-size: 2.5em;
   line-height: 1em;
-  width: 25%;
+  width: 350px;
   user-select: none;
   padding: 1em 1em;
   margin: 1em auto;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 p {
@@ -33,8 +37,6 @@ p:active {
 
 .info {
   text-align: center;
-  position: relative;
-  top: 10em;
   color: white;
 }
 
@@ -44,16 +46,18 @@ a{
 }
 
 a:hover{
-  color: white;
-  background-color: white;
-}
-
-a:visited{
-  color: white;
-  text-decoration: none;
+  text-decoration: underline solid;
 }
 
 a:active {
   color: blue;
   background-color: white;
+}
+
+.sound {
+  opacity: 0;
+}
+
+.sound:hover {
+  opacity: 100;
 }
