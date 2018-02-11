@@ -4,7 +4,13 @@ body {
 	background: black;
 }
 
-.canvas {
+@-webkit-keyframes pulse {
+  0% { box-shadow:0 0 5em gold }
+  50% { box-shadow:0 0 7em gold }
+  100% { box-shadow:0 0 5em gold }
+}
+
+.canvas.one {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
@@ -12,39 +18,15 @@ body {
 	position: relative;
 }
 
-/* EXAMPLES  */
-
-#triangle {
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 200px solid yellow;
-	position: absolute;
-	top: 160px;
-	left: 100px;
+.canvas.two {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: beige;
+	position: relative;
 }
 
-#square {
-	width: 200px;
-	height: 200px;
-	background: red;
-	top: 160px;
-	left: 350px;
-	position: absolute;
-}
-
-#circle {
-	width: 200px;
-	height: 200px;
-	background: blue;
-	border-radius: 200px;
-	top: 160px;
-	left: 600px;
-	position: absolute;
-}
-
-/* STILL LIFE */
+/* DRAWING 1 */
 
 .object {
 	position: absolute;
@@ -185,4 +167,144 @@ left: 7em;
   background: firebrick;
   top: 0em;
   left: 14em;
+}
+
+/* DRAWING TWO */
+
+#paper-two {
+	width: 700px;
+height: 200px;
+-webkit-transform: skew(-40deg);
+	 -moz-transform: skew(-40deg);
+		 -o-transform: skew(-40deg);
+background: sienna;
+bottom: 10em;
+left: 7em;
+}
+
+#rose-two {
+	width: 30em;
+    height: 3em;
+    transform: rotate(10deg);
+    left: 24em;
+    top: 15em;
+}
+
+#rose-two #stem {
+	width: 0em;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20em solid darkgreen;
+	border-bottom: 5px solid transparent;
+	top: 1.25em;
+	left: -2em;
+}
+
+#rose-two #plastic {
+	width: 0em;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 17em solid rgba(255,255,255,0.3);
+    border-bottom: 30px solid transparent;
+}
+
+#rose-two #flower {
+	width: 3.75em;
+	height: 3.75em;
+	border-radius: 50%;
+	background: #94001c;
+	top: 0em;
+	left: 14.78em;
+}
+
+#rose-two #flowertop {
+	width: 2.5em;
+  height: 3.75em;
+  border-radius: 50%;
+  background: firebrick;
+  top: 0em;
+  left: 16em;
+}
+
+#box {
+	width: 10em;
+	height: 12em;
+	background: peru;
+	bottom: 13em;
+	left: 20em;
+}
+
+#box #box-label {
+	width: 90%;
+	height: 70%;
+	background: white;
+	bottom: 3%;
+	left: 5%;
+}
+
+#box #box-label-textone {
+	width: 50%;
+	height: 10%;
+	border: 2px solid black;
+	bottom: 20%;
+	left: 7.5%;
+}
+
+#box #box-label-texttwo {
+	width: 2em;
+	height: 2em;
+	background: black;
+	bottom: 54%;
+	right: 7.5%;
+}
+
+#box #box-label-textthree {
+	font-family: Helvetica;
+	font-weight: bold;
+	bottom: 40%;
+	left: 7.5%;
+}
+
+#box #tape-one {
+	width: 20%;
+	height: 4em;
+	background: rgba(255,255,255,0.7);
+	top: -1.5em;
+	left: 7.5%;
+}
+
+#box #tape-two {
+	width: 20%;
+	height: 4em;
+	background: rgba(255,255,255,0.7);
+	top: -1.5em;
+	right: 7.5%;
+}
+
+#box #tape-three {
+	width: 20%;
+	height: 4em;
+	background: rgba(255,255,255,0.7);
+	top: -1.5em;
+	left: 40%;
+}
+
+#kiwi-two {
+	width: 7em;
+	height: 5em;
+	border-radius: 50%;
+	background: saddlebrown;
+	bottom: 11em;
+	left: 15em;
+}
+
+#lamp {
+  width: 15em;
+  height: 13em;
+	border-radius: 50%;
+  background-color: white;
+	bottom: 14em;
+	left: 14em;
+	box-shadow: 0 0 5em gold;
+  -webkit-animation: pulse 1s linear 1s infinite;
 }

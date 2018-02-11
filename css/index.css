@@ -1,7 +1,7 @@
 body {
   background: whitesmoke;
   color: #333;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Helvetica', sans-serif;
   line-height: 1.5em;
   border: 0.25em;
   padding: 0em 1em;
@@ -36,10 +36,10 @@ a {
 
 a:hover {
   color: red;
+  font-style: italic;
   background-color: gold;
   text-decoration-style: none;
   border-bottom: 10px #333;
-  padding-bottom: 0.25em;
 }
 
 .hiddenlink {
