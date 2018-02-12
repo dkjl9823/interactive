@@ -53,3 +53,7 @@ a:hover {
 .smalllink {
   font-size: 0.75em;
 }
+
+table {
+  border-collapse: collapse;
+}
