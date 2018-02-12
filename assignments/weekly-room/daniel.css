@@ -55,8 +55,9 @@ p {
 #clock #hand {
   width: 150px;
   height: 200px;
-  position: absolute;
-  bottom: 220px;
+  position: relative;
+  margin: auto;
+  top: -0.3em;
   font-size: 3em;
   color: darkgreen;
   animation: spin 200s infinite linear;
