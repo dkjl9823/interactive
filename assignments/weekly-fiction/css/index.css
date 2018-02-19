@@ -1,0 +1,143 @@
+body {
+  background-color: black;
+  color: #89DDE2;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: "Spectral SC", sans-serif;
+  font-size: 1.5em;
+  animation: colorchange-bg 10s infinite ease;
+}
+
+.container {
+
+  max-width: 1150px;
+  display: flex;
+  margin: 0 auto;
+  /* background-color: lime; */
+}
+
+.left {
+  max-width: 350px;
+  /* background: blue; */
+  /* border-right: 5px #C9FEB3 solid; */
+  margin: 0 0.25em;
+  padding: 0 1em 0 0;
+  display: inline-block;
+}
+
+.right {
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0.25em;
+  display: inline-block;
+  /* background: green; */
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {font-size: 2em; line-height: 1em;}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    padding: 0 0.25em;
+}
+
+a {
+  text-decoration: none;
+  color: #89DDE2;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  padding-top: 2em;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+}
+
+footer {
+ position: fixed;
+ bottom: 1em;
+ right: 1em;
+ font-size: 0.5em;
+}
+
+.small {
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.info {
+  font-size: 0.75em;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+}
+
+.name {
+  display: inline-block;
+  padding: 0.25em;
+  animation: colorchange 2s infinite ease;
+}
+
+.process li {
+  list-style: upper-roman;
+}
+
+h1 a {
+  animation: colorchange 6s infinite ease;
+}
+
+h2 {
+  animation: colorchange 4s infinite alternate;
+}
+
+.right {
+  animation: colorchange 3s infinite ease;
+}
+
+a {
+  animation: colorchange 5s infinite alternate;
+}
+
+a:hover {
+  animation: colorchange 1s infinite ease;
+}
+
+@media screen and (max-width: 800px){
+  .container {display: block;}
+  body {font-size: 1em; padding: 0.25em;}
+  nav li {display: inline-block; padding: 0.05em;}
+  .name {padding: 0em; margin: 0;}
+  .left {max-width: 100%;}
+  img {display: none}
+  .small {text-align: left;}
+  /* .left {text-align: center;} */
+}
+
+@keyframes colorchange {
+  0%, 100% {color: inherit;}
+  20% {color: palegreen}
+  40% {color: hotpink;}
+  60% {color: yellow;}
+  80% {color: white;}
+}
+
+@keyframes colorchange-bg {
+  0%, 100% {background-color: black;}
+  33% {background-color: #1F0426;}
+  66% {background-color: #020A1D;}
+  75% {background-color: #021929}
+}

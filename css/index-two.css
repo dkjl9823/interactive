@@ -1,0 +1,96 @@
+body {
+  background: whitesmoke;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
+  line-height: 1.5em;
+  border: 0.25em;
+  padding: 0em 1em;
+  font-size: 1em;
+  transition: background 0.5s ease;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.content {
+  justify: center;
+  min-width: 500px;
+}
+
+.webring {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background: white;
+}
+
+h1 {
+  display: block;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 0.1em 0.2em;
+  margin: 0.1em 0;
+  background-color: white;
+}
+
+/* #weekly li {
+  background-color: gold;
+}
+
+#reading-responses li {
+  background-color: orange;
+}
+
+#projects li {
+  background-color: tomato;
+}
+
+#exercises li {
+  background-color: orangered;
+} */
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration-style: none;
+  transition: color 0.3s ease;
+}
+
+.hiddenlink {
+  text-decoration: none;
+}
+
+#nocolorlink:hover {
+  background: none;
+}
+
+.smalllink {
+  font-size: 0.75em;
+}
+
+table {
+  border-collapse: collapse;
+}

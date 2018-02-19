@@ -1,0 +1,59 @@
+body {
+  background: whitesmoke;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
+  line-height: 1.5em;
+  border: 0.25em;
+  padding: 0em 1em;
+}
+
+.webring {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background: white;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 10px #333;
+}
+
+a:hover {
+  color: red;
+  font-style: italic;
+  background-color: gold;
+  text-decoration-style: none;
+  border-bottom: 10px #333;
+}
+
+.hiddenlink {
+  text-decoration: none;
+}
+
+#nocolorlink:hover {
+  background: none;
+}
+
+.smalllink {
+  font-size: 0.75em;
+}
+
+table {
+  border-collapse: collapse;
+}
