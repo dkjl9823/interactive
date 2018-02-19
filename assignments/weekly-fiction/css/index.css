@@ -89,7 +89,7 @@ footer {
 
 .name {
   display: inline-block;
-  padding: 0.25em;
+  padding: 0em;
   animation: colorchange 2s infinite ease;
 }
 
