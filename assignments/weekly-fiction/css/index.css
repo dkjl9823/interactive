@@ -5,6 +5,7 @@ body {
   font-family: "Spectral SC", sans-serif;
   font-size: 1.5em;
   animation: colorchange-bg 10s infinite ease;
+  transition: font-size ease;
 }
 
 .container {
