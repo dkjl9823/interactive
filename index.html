@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="css/index-two.css">
   </head>
 
-  <body>
+<body>
     <div class="container">
 
 <div id="content">
-    <h1><a href="about.html">Daniel’s</a>
+    <h1><a href="about.html"><div id="name">Daniel</div>’s</a>
       <a href="http://spring2018-yale.veryinteractive.net/">class</a>
          <a href="index.html">website</a><a href="https://youtu.be/jUy9_0M3bVk"> !</a></h1>
 
@@ -72,6 +72,22 @@
     </tr>
   </table>
 
+  <div id="button"><p>Who Am I?</p></div>
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $('#button').click(function(){
+
+    var words = ["Daniel", "Kyungjae", "Dan", "Kyungj", "KJ"];
+    var random_word = words[Math.floor(Math.random()*words.length)];
+
+    $('#name').html(random_word);
+});
+})
+
+</script>
 
   </body>
 
