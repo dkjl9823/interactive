@@ -102,19 +102,25 @@ table {
   height: 50px;
   border-radius: 50%;
   position: fixed;
-  bottom: 1em;
-  left: 1em;
-  background-color: #333;
-  border-style: 1px solid black;
+  bottom: 2em;
+  left: 2em;
+  background-color: white;
+  border: 1px solid black;
   text-align: center;
   cursor: pointer;
   font-size: 0.5em;
+  line-height: 1em;
+  transition: color 0.5s ease;
+  color: #333;
 }
 
 #button p {
   position: relative;
-  bottom: -3px;
-  color: white;
+  bottom: -7px;
+}
+
+#button:hover {
+  color: red;
 }
 
 #name {

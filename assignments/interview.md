@@ -124,14 +124,14 @@ Theatre is a space for something new. And it’s not only interdisciplinary in i
 
 **That’s true. And I’m glad to have had the chance to collaborate with you on the publicity for *Tongues* and this short interview. Before we end, I was wondering if you could give some recommendations for books or songs or shows you’ve been interested in recently.**
 
-Sure.
-The *Black Panther* soundtrack (this album cured my concussion)
-*Black Panther* in general
-Sarah Ruhl’s *Passion Play*
-Tony Kushner’s *Notes on Political Theatre*
-*Father Comes Home From the Wars* by Suzan-Lori Parks
-Bill Viola’s *Martyrs* installation in St. Paul’s Cathedral
-Telling Tales: Short Stories Anthology.
+Sure. Here goes:
+* The *Black Panther* soundtrack (This album cured my concussion)
+* *Black Panther* in general
+* Sarah Ruhl’s *Passion Play* (You would have loved it)
+* Tony Kushner’s *Notes on Political Theatre* (everyone should read it. Even if you're not into theatre. Or political, if that's even possible.)
+* *Father Comes Home From the Wars* by Suzan-Lori Parks
+* Bill Viola’s *Martyrs* installation in St. Paul’s Cathedral
+* *Telling Tales and Other New One-Act Plays* (Especially Athol Fugard's piece)
 
 **Thanks so much Sarah. Lastly, to end on a light note, what did you have for lunch?**
 
