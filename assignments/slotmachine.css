@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  height: 100%;
+  user-select: none;
+}
+
+.container {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.content {
+  min-width: 450px;
+  max-width: 600px;
+  border: 1px black solid;
+  align-self: center;
+  padding: 1.5em;
+  margin-bottom: 100px;
+  background-color: white;
+  transition: background-color, 0.5s ease;
+}
+
+.content:hover {
+  cursor: pointer;
+  background-color: #ECECEC;
+}
+
+.equation {
+  display: inline;
+}
+
+.product {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+a {
+  background-color: white;
+  padding: 0.5em;
+  border: 1px black solid;
+  text-decoration: none;
+  transition: background-color, 0.5s ease;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+  background-color: #ECECEC;
+}
+
+#compound {
+  font-size: 3em;
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  body { font-size: 10px; }
+  .content { min-width: 250px;}
+}

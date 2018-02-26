@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="slotmachine.css">
+  </head>
+
+<body>
+
+<div class="container">
+
+  <div class="content">
+    <h1>What obviously fake compound word should I use in my paper this time? Click to find out.</h1>
+
+    <div class="equation" id="prefix">prefix</div> +
+    <div class="equation" id="word">word</div> +
+    <div class="equation" id="suffix">suffix</div> =
+
+    <div class="product" id="compound">compound word</div>
+
+  </div>
+
+</div>
+
+  <a href="../index.html">Back Home</a>
+
+<!-- JAVA SCRIPT BEGINS -->
+<script src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+  $('.content').click(function(){
+
+    var prefix = ["anti", "extra", "auto", "down", "hyper", "inter", "post", "quasi", "pseudo", "trans", "re", "un", "dis", "pro", "mid", "mono", "homo", "hetero", "bi", "epi", "de", "co", "circum", "pre"];
+    var word = ["connect", "discern", "bolster", "dispel", "credit", "commend", "elicit", "lament", "mock", "perplex", "ascend", "startup", "impact", "worship", "dream", "exploit", "rebut", "press", "sustain", "affect", "disrupt", "business", "solution", "benchmark", "learn", "build"];
+    var suffix = ["able", "acity", "age", "aholic", "y", "ly", "ular", "ophile", "al", "ment", "ness", "less", "itis", "icity", "ling", "ism", "ing", "ious", "ization", "ist", "esque", "ish"];
+
+    var random_prefix = prefix[Math.floor(Math.random()*prefix.length)];
+    var random_word = word[Math.floor(Math.random()*word.length)];
+    var random_suffix = suffix[Math.floor(Math.random()*suffix.length)];
+
+    $('#prefix').html(random_prefix);
+    $('#word').html(random_word);
+    $('#suffix').html(random_suffix);
+    $('#compound').html(random_prefix + random_word + random_suffix);
+
+    var color = ["midnightblue", "mediumblue", "steelblue", "blue", "royalblue", "goldenrod", "darkorange", "orangered", "darkred", "crimson", "mediumvioletred", "darkgreen", "olive", "yellowgreen", "teal", "darkslategray", "dimgray", "maroon", "darkgoldenrod", "rosygrown", "saddlebrown", "indigo", "darkmagenta", "black", "darkkhaki"];
+    var random_color = color[Math.floor(Math.random()*color.length)];
+
+    $('#compound').css('color', random_color);
+    $('body').css('background-color', random_color);
+
+});
+})
+
+</script>
+<!-- JAVA SCRIPT ENDS -->
+
+</body>
+
+<html>
