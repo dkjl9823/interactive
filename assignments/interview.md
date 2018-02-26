@@ -1,4 +1,4 @@
-# Catching up with Sarah
+# Catching up with Sarah Hahm
 ### Interviewed by Daniel Lee
 
 ***
@@ -128,7 +128,7 @@ Sure. Here goes:
 * The *Black Panther* soundtrack (This album cured my concussion)
 * *Black Panther* in general
 * Sarah Ruhl’s *Passion Play* (You would have loved it)
-* Tony Kushner’s *Notes on Political Theatre* (everyone should read it. Even if you're not into theatre. Or political, if that's even possible.)
+* Tony Kushner’s *Notes on Political Theatre* (Everyone should read it. Even if you're not into theatre. Or political, if that's even possible.)
 * *Father Comes Home From the Wars* by Suzan-Lori Parks
 * Bill Viola’s *Martyrs* installation in St. Paul’s Cathedral
 * *Telling Tales and Other New One-Act Plays* (Especially Athol Fugard's piece)
