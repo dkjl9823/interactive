@@ -47,6 +47,8 @@ $(document).ready(function(){
     $('#suffix').html(random_suffix);
     $('#compound').html(random_prefix + random_word + random_suffix);
 
+    console.log(random_prefix + random_word + random_suffix);
+
     var color = ["midnightblue", "mediumblue", "steelblue", "blue", "royalblue", "goldenrod", "darkorange", "orangered", "darkred", "crimson", "mediumvioletred", "darkgreen", "olive", "yellowgreen", "teal", "darkslategray", "dimgray", "maroon", "darkgoldenrod", "rosygrown", "saddlebrown", "indigo", "darkmagenta", "black", "darkkhaki"];
     var random_color = color[Math.floor(Math.random()*color.length)];
 
