@@ -36,10 +36,8 @@ a {
 
 a:hover {
   color: red;
-  font-style: italic;
-  background-color: gold;
   text-decoration-style: none;
-  border-bottom: 10px #333;
+  transition: color 0.3s ease;
 }
 
 .hiddenlink {
