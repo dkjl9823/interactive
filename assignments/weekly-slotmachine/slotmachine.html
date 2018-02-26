@@ -14,7 +14,7 @@
   <div class="content">
     <h1>What obviously fake compound word should I use in my paper this time? Click to find out.</h1>
 
-    <div class="equation" id="prefix">prefix</div> +
+    <div class="equation" id="prefix">prefix/root</div> +
     <div class="equation" id="word">word</div> +
     <div class="equation" id="suffix">suffix</div> =
 
@@ -27,16 +27,16 @@
   <a href="../../index.html">Back Home</a>
 
 <!-- JAVA SCRIPT BEGINS -->
-<script src="../js/jquery.min.js"></script>
+<script src="../../js/jquery.min.js"></script>
 <script type="text/javascript">
 
 $(document).ready(function(){
 
   $('.content').click(function(){
 
-    var prefix = ["anti", "extra", "auto", "down", "hyper", "inter", "post", "quasi", "pseudo", "trans", "re", "un", "dis", "pro", "mid", "mono", "homo", "hetero", "bi", "epi", "de", "co", "circum", "pre"];
-    var word = ["connect", "discern", "bolster", "dispel", "credit", "commend", "elicit", "lament", "mock", "perplex", "ascend", "startup", "impact", "worship", "dream", "exploit", "rebut", "press", "sustain", "affect", "disrupt", "business", "solution", "benchmark", "learn", "build"];
-    var suffix = ["able", "acity", "age", "aholic", "y", "ly", "ular", "ophile", "al", "ment", "ness", "less", "itis", "icity", "ling", "ism", "ing", "ious", "ization", "ist", "esque", "ish"];
+    var prefix = ["anti", "extra", "auto", "down", "hyper", "inter", "post", "quasi", "pseudo", "trans", "re", "un", "dis", "pro", "mid", "mono", "homo", "hetero", "bi", "epi", "de", "co", "circum", "pre", "mal", "ante", "anthro", "andro", "demo", "sub", "syn", "contra", "peri", "auto", "biblio", "cosmo", "ego", "helio", "hypo", "ultra", "macro", "micro", "neo", "omni"];
+    var word = ["connect", "discern", "bolster", "dispel", "credit", "commend", "elicit", "lament", "mock", "perplex", "ascend", "startup", "impact", "worship", "dream", "exploit", "rebut", "press", "sustain", "affect", "disrupt", "business", "solution", "benchmark", "learn", "build", "commit", "add", "subtract", "commit", "crash", "class", "press", "progress", "transcend"];
+    var suffix = ["able", "acity", "age", "aholic", "y", "ly", "ular", "ophile", "al", "ment", "ness", "less", "itis", "icity", "ling", "ism", "ing", "ious", "ization", "ist", "esque", "ish", "ability", "isis", "ology", "icide", "ate", "ize", "ify", "er", "ship", "itude"];
 
     var random_prefix = prefix[Math.floor(Math.random()*prefix.length)];
     var random_word = word[Math.floor(Math.random()*word.length)];
