@@ -1,10 +1,22 @@
 # Catching up with Sarah
+### Interviewed by Daniel Lee
 
 ***
 
-*__Sarah Yejin Hahm__ is a sophomore at the USC School of Dramatic Arts. She is a Theatre B.A. candidate, aspiring actor-writer-director, and long time friend. *
+## Contents ##
+- Introduction and Updates
+- Interdisciplinarity and Theatre
+- *Agamemnon* and Confrontation
+- Seoul and High School
+- Art and Industry
+- Culture and Compromise
+- Conclusion and Recommendations
 
 ***
+
+
+## Introduction and Updates ##
+
 
 **Daniel Kyungjae Lee: Hello! Thanks for taking the time to do this short interview with me. Could you introduce yourself real quick?**
 
@@ -12,11 +24,15 @@ Sarah Yejin Hahm: Yea. Hi, my name is Sarah Hahm. I'm a sophomore in college at 
 
 **Awesome. We haven't talked in a while. So what have you been up to recently?**
 
-I have been working on several shows in theatre and just some other things. I recently directed a show called *Tongues and Savage Love* which was an experimental physical theatre piece that was a collaboration between the Thornton School of Music, the Kaufman School of Dance, and the USC School of Dramatic Arts. It was a 90 minute piece that took the writing of Sam Shepard and Joseph Chaikin and set it to devised choreography and movement, live music, and foley, all composed for this specific show. I worked with a choreographer and was heavily inspired by Pina Bausch – my reigning queen and idol – who was a figurehead of the collaboration between theatre and dance.
+I have been working on several shows in theatre and just some other things. I recently directed a show called *Tongues and Savage Love*  – thanks again for designing the poster for us – which was an experimental physical theatre piece that was a collaboration between the Thornton School of Music, the Kaufman School of Dance, and the USC School of Dramatic Arts. It was a 90 minute piece that took the writing of Sam Shepard and Joseph Chaikin and set it to devised choreography and movement, live music, and foley, all composed for this specific show. I worked with a choreographer and was heavily inspired by Pina Bausch – my reigning queen and idol – who was a figurehead of the collaboration between theatre and dance.
 
 Since *Tongues*, I've been working on a show called *Titue Andronicus*, which I'm the production manager for. It's been a huge challenge for me in a technical aspect in terms of fight choreo and blood, etc.
 
 I'm working on another show – starting tomorrow, actually  – called *Postcards from Morocco*. It's the Thornton School of Music's contemporary opera-musical written in English, set in the early 20th century. It's also a huge collaboration between music and theatre. The concepts of transportation, communication, and identity, and self-realization and the show's myriad of characters come to life through a marriage of acting and musicality. It's an experimental piece that's really, really beautiful, and I'm really excited about it.
+
+
+## Interdisciplinarity and Theatre ##
+
 
 **Cool. Listening to what you've been up to, and from my personal experience and understanding of theatre, it seems like now more than ever theatre's become such an interdisciplinary art form. Nowadays it's become really hard and unjust to box an artist or art piece into a singular medium or category. Interdisciplinary work is becoming more and more prevalent, popular, and important. How important do you think versatility and interdisciplinarity are for you as a thespian?**
 
@@ -34,13 +50,17 @@ Well theatre is where an actor can speak their greatest truth, and that's perfor
 
 **Yea, since you have things like dance-theatre that Pina Bausch so vividly explored where the lines between the two became so blurred and something new rose from their collision.**
 
+
+## *Agamemnon* and Confrontation ##
+
+
 I think you and I grew up in an environment where we were so lucky to constantly see collisions of art happen, that I think is lacking in my life at college. Thinking about Fab 10 (a series of touring theatre productions we would watch, curated by our director) and all that shit we went to see, and thinking about how we got to have that in our library of theatre and art knowledge has been a huge influence on my understanding of interdisciplinary art and theatre.
 
-I always think of the Jethro Compoton's production of *Agamemmnon* we got to see. It's honestly one of the best show's I've ever seen.
+I always think of the Jethro Compton's production of *Agamemnon* we got to see. It's honestly one of the best show's I've ever seen.
 
 **Same.**
 
-I literally think about that show all the time. [sings song from show] And using that show as an example, the way that they used music in that show was incredible. So poignant. That show would not have been what it was if it wasn't for its music.
+I literally think about that show all the time. [Sings song from show, *Oh! Oh! Antonio*] And using that show as an example, the way that they used music in that show was incredible. So poignant. That show would not have been what it was if it wasn't for its music.
 
 **When I think about that show, it wasn't just a theatrical or musical experience, it was also spatial and exhibitory in how it used theatre-in-the-round and intimacy with us, the audience. It was incredible.**
 
@@ -48,11 +68,15 @@ It was like Marina Abramovic in the Met, sitting with gallery-goers. It genuinel
 
 **It was a forced confrontation with the truth you were talking about.**
 
-It was definitely a confrontation. Daniel, I think about that show all the fucking time. I want him to hire me.
+It was definitely a confrontation. Daniel, I think about that show all the fucking time. I want Jethro to hire me.
+
+
+## Seoul and High School ##
+
 
 **Let’s talk more about our experience growing up in Seoul, at an international school, immersed and exposed to such a variety of theatre and art.**
 
-When we in high school, I don’t think we fully understood how privileged we were. We just thought it was normal because we would all just go together — our whole class — to City Hall to see a visiting show. We came to expect art to always be a collaboration amongst not only art forms, but cultures, and cities. I’m so glad to have grown up in a city that valued the conversation of art in a society.
+When we in high school, I don’t think we fully understood how privileged we were. We just thought it was normal because we would all just go together — our whole class — to City Hall or Daehakro to see a visiting show. We came to expect art to always be a collaboration amongst not only art forms, but cultures, and cities. I’m so glad to have grown up in a city that valued the conversation of art in a society.
 
 **I mean we couldn’t have done that without the education we so fortunately had, with teachers like Edie Moon who really pioneered for art to be part of our core curriculum.**
 
@@ -62,13 +86,19 @@ Exactly. And you know what? We grew up in a school with a lot of money and by vi
 
 Just on the fucking rights. We really did that. But we were really lucky to have had that experience. At the same time, though, at a certain point, we started to look for the art in our city ourselves. The art I was experiencing was really fueling my life decisions and shaped the way I wanted to live and just exist, really. That’s when we really realize how much of an influence your exposure to art has had on you.
 
+
+## Art and Industry ##
+
+
 **How do you think the art culture in L.A. – where you currently live – differs to the art culture in Seoul that you grew up in?**
 
 When I think of L.A., I think of industry. And L.A. is the hub of industry. Everything is made here now, especially with Hollywood and Silicon Valley. But in Korea, I don’t think it’s … Well, I don’t think the Korean art scene isn’t run by industry, like it seems to be in L.A.. It’s run by … I’m not sure what word I would use. How would you describe it?
 
-**I think it’s run very independently of industry. Maybe there’s just a clearer delineation between art and commerce in Korea than there is in the States. Perhaps art had become more commercialized in America, while Korea’s delineation is better, or the two haven’t collided like they have in the States yet.**
+**I think it’s somewhat very independently of industry. Maybe there’s just a clearer delineation between art and commerce in Korea than there is in the States. Perhaps art has become more commercialized in America, while Korea’s delineation is better, or the two haven’t collided like they have in the States yet?**
 
-Right. Because we don’t look at K-pop idols groups and say “That’s art”. That’s commerce, and they now it is. And sure, sometimes there is an overlap and it’s fantastic when there is. I think Korean history and culture is the pulse of our art. Our desire for unity is such a big part of how us Koreans and Korean artist view our world and our art and our community, which is so different to the United States. Korea’s desire for unity, and … peace! We’re really not our here trying to shoot each other – we’re really just trying to live our day to day lives, and reunite with our northern counterpart.
+Right. Because we don’t look at K-pop idols groups and say “That’s art”. That’s commerce, and they know it is. And sure, sometimes there is an overlap and it’s fantastic when there is, but I think Korean history and culture is the pulse of our art, not capitalism. Our desire for unity is such a big part of how us Koreans and Korean artist view our world and our art and our community, which is so different to the United States. Korea’s desire for unity, and … peace! We’re really not our here trying to shoot each other – we’re really just trying to live our day to day lives, and reunite with our northern counterpart.
+
+## Culture and Compromise ##
 
 **I do think my culture and heritage has really begun to influence and drive my art and work, especially as an aspiring artist and designer studying far from home. I constantly find myself trying to fit in a Korean reference in everything I do.**
 
@@ -82,6 +112,8 @@ To be honest, I walk into a theatre knowing that everyday this theatre has somet
 
 In terms of compromising … I don’t know if I’m really compromising, or just adding what I know to the theatre and to the piece.
 
+## Conclusion and Recommendations ##
+
 **So it’s more of a give and take situation for you.**
 
 Mhmm. I’m not meeting my English speaking audience and theatre at the middle. There’s always a net profit in the interaction.
@@ -90,17 +122,16 @@ Mhmm. I’m not meeting my English speaking audience and theatre at the middle. 
 
 Theatre is a space for something new. And it’s not only interdisciplinary in its media, but also its culture, and language, etc. It’s a space for further exploration, too. Like how if you and I took theatre in high school and got to further explore the visual and musical art that we always loved, while coming across new ideas with Artaud and Bausch and Brecht. And even now that you’ve moved on to graphic design, you still manage to circle back to involve yourself in theatre through acting or design.
 
-
 **That’s true. And I’m glad to have had the chance to collaborate with you on the publicity for *Tongues* and this short interview. Before we end, I was wondering if you could give some recommendations for books or songs or shows you’ve been interested in recently.**
 
 Sure.
-* The *Black Panther* soundtrack (this album cured my concussion)
-* *Black Panther* in general
-* Sarah Ruhl’s *Passion Play*
-* Tony Kushner’s *Notes on Political Theatre*
-* *Father Comes Home From the Wars* by Suzan-Lori Parks
-* Bill Viola’s *Martyrs* installation in St. Paul’s Cathedral
-* *Telling Tales: Short Stories Anthology.*
+The *Black Panther* soundtrack (this album cured my concussion)
+*Black Panther* in general
+Sarah Ruhl’s *Passion Play*
+Tony Kushner’s *Notes on Political Theatre*
+*Father Comes Home From the Wars* by Suzan-Lori Parks
+Bill Viola’s *Martyrs* installation in St. Paul’s Cathedral
+Telling Tales: Short Stories Anthology.
 
 **Thanks so much Sarah. Lastly, to end on a light note, what did you have for lunch?**
 
@@ -112,4 +143,8 @@ Yea. For lunch.
 
 **Amazing. Thanks so much Sarah.**
 
-[giggles]
+[Laughs]
+
+***
+
+*__Sarah Yejin Hahm__ is a sophomore at the USC School of Dramatic Arts. She is a Theatre B.A. candidate, aspiring actor-writer-director, and long time friend and collaborator.*
