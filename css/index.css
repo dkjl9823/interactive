@@ -1,57 +1,160 @@
+/* GENERAL */
 body {
-  background: whitesmoke;
+  background: gold;
   color: #333;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
-  line-height: 1.5em;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ; */
+  font-family: 'Source Code Pro', monospace;
+  padding: 0em 0em 0em 1em;
+  margin: 0;
+  font-size: 1.25em;
+  user-select: none;
+  transition: font-size 0.25s ease-in;
   border: 0.25em;
   padding: 0em 1em;
 }
 
-.webring {
-  position: fixed;
-  top: 1em;
-  right: 1em;
-  background: white;
+@media screen and (max-width: 800px) {
+  body { font-size: 1em; }
 }
 
+div {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 620px;
+  height: 100vh;
+  padding-top: 2em;
+}
+
+#content {
+  margin: 0 auto;
+  max-width: 620px;
+  padding: 0.25em 1em;
+}
+
+/* HEADERS */
 h1 {
+  display: inline-block;
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 h2 {
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
+h2:hover {
+  color: red;
+  text-decoration-style: none;
+  transition: color 0.2s ease;
+}
+
+h2#weekly:hover {
+  cursor: s-resize;
+}
+
+h2#reading:hover {
+  cursor: s-resize;
+}
+
+h2#project:hover {
+  cursor: s-resize;
+}
+
+h2#exercises:hover {
+  cursor: s-resize;
+}
+
+hr {
+  border: 2px #333 solid;
+  max-width: 200px;
+  margin: 1em 0 0 0;
+}
+
+/* LISTS and LINKS */
 ul {
   list-style: none;
+  padding: 0;
+  display: none;
+}
+
+li {
+  display: inline-block;
+  /* border: 1px solid black; */
+  padding: 0.1em 0.2em;
+  margin: 0.1em 0;
+  background-color: white;
+  line-height: 1.5em;
 }
 
 a {
   color: #333;
   text-decoration: none;
-  border-bottom: 10px #333;
 }
 
 a:hover {
   color: red;
   text-decoration-style: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 .hiddenlink {
   text-decoration: none;
 }
 
-#nocolorlink:hover {
+/* RANDOM NAME BUTTON */
+#button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  background-color: white;
+  /* border: 1px solid black; */
+  text-align: center;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 1em;
+  transition: color 0.5s ease;
+  color: #333;
+}
+
+#button p {
+  position: relative;
+  bottom: -7px;
+}
+
+#button:hover {
+  color: red;
+}
+
+#name {
+  display: inline;
+}
+
+/* WEBRING TABLE */
+/* .webring {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background: white;
+} */
+
+/* #nocolorlink:hover {
   background: none;
 }
 
 .smalllink {
   font-size: 0.75em;
-}
+} */
 
-table {
+/* table {
   border-collapse: collapse;
-}
+} */
