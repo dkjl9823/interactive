@@ -22,14 +22,14 @@ $("#weekly").click(function(){
       $("#readinglist").slideUp("slow");
       $("#exerciseslist").slideUp("slow");
       $("#projectlist").slideUp("slow");
-      readingstatus = 'readingnoshow'
-      projectstatus = 'projectnoshow'
-      exercisesstatus = 'exercisesnoshow'
+      readingstatus = 'readingnoshow';
+      projectstatus = 'projectnoshow';
+      exercisesstatus = 'exercisesnoshow';
   }
   else {
     $("#weeklylist").slideToggle("slow");
     $("#weekly:hover").css("cursor", "s-resize");
-    weeklystatus = 'weeklynoshow'
+    weeklystatus = 'weeklynoshow';
   }
 })
 
@@ -45,14 +45,14 @@ $("#reading").click(function(){
       $("#weeklylist").slideUp("slow");
       $("#exerciseslist").slideUp("slow");
       $("#projectlist").slideUp("slow");
-      projectstatus = 'projectnoshow'
-      exercisesstatus = 'exercisesnoshow'
-      weeklystatus = 'weeklynoshow'
+      projectstatus = 'projectnoshow';
+      exercisesstatus = 'exercisesnoshow';
+      weeklystatus = 'weeklynoshow';
   }
   else {
     $("#readinglist").slideToggle("slow");
     $("#reading:hover").css("cursor", "s-resize");
-    readingstatus = 'readingnoshow'
+    readingstatus = 'readingnoshow';
   }
 })
 
@@ -70,12 +70,12 @@ $("#project").click(function(){
       $("#exerciseslist").slideUp("slow");
       readingstatus = 'readingnoshow'
       exercisesstatus = 'exercisesnoshow'
-      weeklystatus = 'weeklynoshow'
+      weeklystatus = 'weeklynoshow';
   }
   else {
     $("#projectlist").slideToggle("slow");
     $("#project:hover").css("cursor", "s-resize");
-    projectstatus = 'projectnoshow'
+    projectstatus = 'projectnoshow';
   }
 })
 
@@ -91,13 +91,13 @@ $("#exercises").click(function(){
       $("#weeklylist").slideUp("slow");
       $("#readinglist").slideUp("slow");
       $("#projectlist").slideUp("slow");
-      readingstatus = 'readingnoshow'
-      projectstatus = 'projectnoshow'
-      weeklystatus = 'weeklynoshow'
+      readingstatus = 'readingnoshow';
+      projectstatus = 'projectnoshow';
+      weeklystatus = 'weeklynoshow';
   }
   else {
     $("#exerciseslist").slideToggle("slow");
     $("#exercises:hover").css("cursor", "s-resize");
-    exercisesstatus = 'exercisesnoshow'
+    exercisesstatus = 'exercisesnoshow';
   }
 })
