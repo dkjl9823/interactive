@@ -7,6 +7,7 @@
 <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/index-two.css">
     <link rel="stylesheet" href="https://laurelschwulst.github.io/interactive/css/webring.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 </head>
 
 <body>
@@ -22,11 +23,11 @@
     <h1><a href="about.html"><div id="name">Daniel</div>’s</a>
       <a href="http://spring2018-yale.veryinteractive.net/">class</a>
          <a href="index.html">website</a><a href="https://youtu.be/jUy9_0M3bVk"> !</a></h1>
-
+<hr>
 <!-- WEEKLY PROJECTS -->
-    <div id="weekly">
-        <h2>Weekly Projects</h2>
-        <ul>
+    <div>
+        <h2 id="weekly">Weekly Projects</h2>
+        <ul id="weeklylist">
           <li><a href="assignments/weekly-library/index.html">The Notebook Nook</a></li>
           <li><a href="assignments/weekly-textlandscape/textlandscape.html">Excerpt from Blue</a></li>
           <li><a href="assignments/weekly-room/common.html">Rooms of C32</a></li>
@@ -37,9 +38,9 @@
       </div>
 
 <!-- READING RESPONSES -->
-    <div id="reading-responses">
-        <h2>Reading Responses</h2>
-        <ul>
+    <div>
+        <h2 id="reading">Reading Responses</h2>
+        <ul id="readinglist">
           <li><a href="assignments/reading-responses/reading-response-a.html">Conversation 2: Reliability</a></li>
           <li><a href="assignments/reading-responses/reading-response-b.html">Conversation 1: art.yale.edu</a></li>
           <li><a href="assignments/reading-responses/reading-response-c.html">Conversation 3: Attention</a></li>
@@ -48,17 +49,17 @@
       </div>
 
 <!-- PROJECTS -->
-    <div id="projects">
-        <h2>Projects</h2>
-        <ul>
+    <div>
+        <h2 id="project">Projects</h2>
+        <ul id="projectlist">
           <li><i>Coming Soon!</i></li>
         </ul>
       </div>
 
 <!-- EXERCISES -->
-    <div id="exercises">
-        <h2>Exercises</h2>
-        <ul>
+    <div>
+        <h2 id="exercises">Exercises</h2>
+        <ul id="exerciseslist">
           <li><a href="assignments/exercise-hello-world.html">Hello World</a></li>
           <li><a href="assignments/exercise-interview/exercise-interview-html.html">HTML Interview</a></li>
           <li><a href="assignments/exercise-interview/exercise-interview-css1.html">CSS Interview I</a></li>
@@ -105,19 +106,7 @@
 
 <!-- JAVA SCRIPT -->
 <script src="js/jquery.min.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function(){
-  $('#button').click(function(){
-
-    var words = ["Daniel", "Kyungjae", "Dan", "Kyungj", "KJ", "경재", "다니엘", "대녈", "景宰", "[gjʌŋ.d͡ʑɛ]", "[dæ.njʌl]"];
-    var random_word = words[Math.floor(Math.random()*words.length)];
-
-    $('#name').html(random_word);
-    });
-})
-
-</script>
+<script src="js/index.js"></script>
 
   </body>
 
