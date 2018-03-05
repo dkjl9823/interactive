@@ -18,7 +18,13 @@ $("#weekly").click(function(){
   if(weeklystatus == "weeklynoshow"){
     $("#weeklylist").slideToggle("slow");
     $("#weekly:hover").css("cursor", "n-resize");
-    status = 'show'
+    weeklystatus = 'show'
+      $("#readinglist").slideUp("slow");
+      $("#exerciseslist").slideUp("slow");
+      $("#projectlist").slideUp("slow");
+      readingstatus = 'readingnoshow'
+      projectstatus = 'projectnoshow'
+      exercisesstatus = 'exercisesnoshow'
   }
   else {
     $("#weeklylist").slideToggle("slow");
@@ -36,6 +42,12 @@ $("#reading").click(function(){
     $("#readinglist").slideToggle("slow");
     $("#reading:hover").css("cursor", "n-resize");
     readingstatus = 'show'
+      $("#weeklylist").slideUp("slow");
+      $("#exerciseslist").slideUp("slow");
+      $("#projectlist").slideUp("slow");
+      projectstatus = 'projectnoshow'
+      exercisesstatus = 'exercisesnoshow'
+      weeklystatus = 'weeklynoshow'
   }
   else {
     $("#readinglist").slideToggle("slow");
@@ -53,6 +65,12 @@ $("#project").click(function(){
     $("#projectlist").slideToggle("slow");
     $("#project:hover").css("cursor", "n-resize");
     projectstatus = 'show'
+      $("#weeklylist").slideUp("slow");
+      $("#readinglist").slideUp("slow");
+      $("#exerciseslist").slideUp("slow");
+      readingstatus = 'readingnoshow'
+      exercisesstatus = 'exercisesnoshow'
+      weeklystatus = 'weeklynoshow'
   }
   else {
     $("#projectlist").slideToggle("slow");
@@ -70,6 +88,12 @@ $("#exercises").click(function(){
     $("#exerciseslist").slideToggle("slow");
     $("#exercises:hover").css("cursor", "n-resize");
     exercisesstatus = 'show'
+      $("#weeklylist").slideUp("slow");
+      $("#readinglist").slideUp("slow");
+      $("#projectlist").slideUp("slow");
+      readingstatus = 'readingnoshow'
+      projectstatus = 'projectnoshow'
+      weeklystatus = 'weeklynoshow'
   }
   else {
     $("#exerciseslist").slideToggle("slow");
