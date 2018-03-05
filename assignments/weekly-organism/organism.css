@@ -126,6 +126,14 @@ h1 {
   z-index: 80;
 }
 
+#bridge-top {
+  width: 65px;
+  height: 3px;
+  left: 65px;
+  z-index: 80;
+  top: 151px;
+}
+
 #leg-left {
   width: 10px;
 }
