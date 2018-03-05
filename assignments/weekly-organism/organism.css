@@ -1,0 +1,387 @@
+body {
+  background: mistyrose;
+  font-family: 'Nunito', sans-serif;
+  user-select: none;
+  transition: all 300ms ease-in;
+}
+
+/* THE ENVIRONMENT */
+
+#darkness {
+  width: 500px;
+  height: 750px;
+  background-color: black;
+  position: fixed;
+  margin: 5em 5em;
+  border-radius: 5%;
+  z-index: 100;
+  opacity: 0;
+  transition: all 100ms ease-in;
+}
+
+#mirror {
+  width: 500px;
+  height: 750px;
+  background-color: white;
+  position: fixed;
+  margin: 5em 5em;
+  border-radius: 5%;
+  transition: all 300ms ease-in;
+}
+
+#shoulders {
+  width: 400px;
+  height: 335px;;
+  border-top-right-radius: 35%;
+  border-top-left-radius: 35%;
+  position: fixed;
+  top: 503px;
+  left: 137.5px;
+  background-color: darkseagreen;
+  z-index: -1;
+  text-align: center;
+  transition: all 300ms ease-in;
+}
+
+h1 {
+  padding-top: 4em;
+  color: seagreen;
+}
+
+/* #neckline {
+  width: 150px;
+  height: 75px;;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: relative;
+  top: 100px;
+  left: 175px;
+  background-color: bisque;
+} */
+
+/* THE FACE  */
+
+#face {
+  width: 200px;
+  height: 300px;
+  background-color: bisque;
+  position: fixed;
+  top: 300px;
+  left: 235px;
+  display: block;
+  z-index: 8;
+  border-radius: 20%;
+  animation: float 3s infinite ease;
+}
+
+.eye {
+  width: 20px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  position: relative;
+  top: 160px;
+  display: inline-block;
+  z-index: 20;
+  transition: all 100ms ease-in;
+}
+
+#eye-left {
+  left: 40px;
+}
+
+#eye-right {
+  left: 115px;
+}
+
+.glasses {
+  width: 70px;
+  height: 50px;
+  border: 5px gold solid;
+  border-radius: 30%;
+  position: fixed;
+  top: 150px;
+  z-index: 200;
+}
+
+#glasses-left {
+  left: 5px;
+}
+
+#glasses-right {
+  left: 115px;
+}
+
+.glasses-bridge {
+  height: 5px;
+  width: 30px;
+  background-color: goldenrod;
+  position: fixed;
+  top: 165px;
+}
+
+#bridge {
+  width: 40px;
+  left: 80px;
+  z-index: 80;
+}
+
+#leg-left {
+  width: 10px;
+}
+
+#leg-right {
+  width: 10px;
+  right: 0;
+}
+
+.brow {
+  width: 60px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 25%;
+  position: relative;
+  display: inline-block;
+  top: 135px;
+  transition: all 300ms ease-in;
+}
+
+#brow-left {
+  left: -30px;
+  transform: rotate(0deg);
+}
+
+#brow-right {
+  left: 10px;
+  transform: rotate(0deg);
+}
+
+#nose {
+  width: 40px;
+  height: 90px;
+  background: sandybrown;
+  border-radius: 30%;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  z-index: 8;
+}
+
+#mouth {
+  width: 150px;
+  height: 50px;
+  background-color: indianred;
+  position: relative;
+  border-radius: 30%;
+  top: 95px;
+  left: 25px;
+}
+
+.teeth {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  left: 37.5px;
+  top: -1px;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.ear {
+  height: 70px;
+  width: 50px;
+  border-radius: 20%;
+  background-color: wheat;
+  position: fixed;
+  top: 450px;
+  animation: float 3s infinite ease;
+}
+
+#ear-left {
+  left: 200px;
+}
+
+#ear-right {
+  left: 420px;
+}
+
+.in-ear {
+  height: 50px;
+  width: 30px;
+  background-color: tan;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  border-radius: 20%;
+}
+
+.tears {
+  width: 10px;
+  height: 125px;
+  background-color: skyblue;
+  position: fixed;
+  display: none;
+  top: 180px;
+  animation: float 3s infinite ease;
+  z-index: 10;
+}
+
+#tearleft {
+  left: 45px;
+}
+
+#tearright {
+  left: 145px;
+}
+
+/* THE HAIR */
+
+.hair {
+  height: 150px;
+  width: 20px;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+  margin: 0 0;
+  padding: 0 0;
+  display: inline-block;
+  background-color: #333;
+  position: fixed;
+  top: 290px;
+  z-index: 10;
+  animation: float 3s infinite ease;
+  display: inline-block;
+  opacity: 1;
+  transition: all 300ms ease-in;
+}
+
+#hair-one {
+  border-top-left-radius: 50%;
+  left: 225px;
+}
+
+#hair-two {
+  left: 245px;
+}
+#hair-three {
+  left: 265px;
+}
+#hair-four {
+  left: 285px;
+}
+#hair-five {
+  left: 305px;
+}
+#hair-six {
+  left: 325px;
+}
+#hair-seven {
+  left: 345px;
+}
+#hair-eight {
+  left: 365px;
+}
+#hair-nine {
+  left: 385px;
+}
+#hair-ten {
+  left: 405px;
+}
+
+#hair-eleven {
+  border-top-right-radius: 50%;
+  left: 425px;
+}
+
+/* BUTTON */
+
+h1 {
+  font-size: 3em;
+  color: seagreen;
+  z-index: 15;
+  position: fixed;
+  line-height: 1em;
+  left: 600px;
+  top: -135px;
+  color: tomato;
+}
+
+.button {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #333;
+  font-size: 1.5em;
+  z-index: 20;
+  position: fixed;
+  left: 600px;
+}
+
+#bald {
+  top: 250px;
+}
+
+#unbald {
+  top: 300px;
+}
+
+#hair-color {
+  top: 350px;
+}
+
+#tee-color {
+  top: 400px;
+}
+
+#bg1-color {
+  top: 450px;
+}
+
+#bg2-color {
+  top: 500px;
+}
+
+#light {
+  top: 550px;
+}
+
+#home {
+  top: 805px;
+}
+
+.button:hover {
+  font-weight: bolder;
+  color: tomato;
+}
+
+.button:active {
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #333;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: tomato;
+}
+
+/* ANIMATION */
+
+@keyframes float {
+  0%, 100% {transform: translateY(0px);}
+  50% {transform: translateY(-10px);}
+}
+
+.off {
+  display: none;
+}
