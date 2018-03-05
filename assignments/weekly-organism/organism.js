@@ -11,7 +11,7 @@ function makebald(){
   var rndm_hair = hair[Math.floor(Math.random()*hair.length)];
 
       if(hair.length == 0){
-        $('.tears').fadeIn('slow');
+        $('.tears').css('opacity', 1);
     }
       else {
         $(rndm_hair).css('opacity', 0);
@@ -40,7 +40,7 @@ else {
   $(rndm_losthair).css('opacity', 1);
   hair.push(rndm_losthair);
   losthair.splice(losthair.indexOf(rndm_losthair), 1);
-  $('.tears').fadeOut('slow')
+  $('.tears').css('opacity', 0)
 
   console.log(hair);
 }};
