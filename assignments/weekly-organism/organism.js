@@ -18,8 +18,8 @@ function makebald(){
         losthair.push(rndm_hair);
         hair.splice(hair.indexOf(rndm_hair), 1);
 
-        // console.log(hair);
-        // console.log(losthair);
+        console.log(hair);
+        console.log(losthair);
       }
 
   }
@@ -33,13 +33,17 @@ function givehair(){
 
 var rndm_losthair = losthair[Math.floor(Math.random()*losthair.length)];
 
-        $(rndm_losthair).css('opacity', 1);
-        hair.push(rndm_losthair);
-        losthair.splice(losthair.indexOf(rndm_losthair), 1);
-        $('.tears').fadeOut('slow')
-
-        // console.log(hair);
+if(hair.length == 11){
+  $('#darkness').css('background-color', 'black');
   }
+else {
+  $(rndm_losthair).css('opacity', 1);
+  hair.push(rndm_losthair);
+  losthair.splice(losthair.indexOf(rndm_losthair), 1);
+  $('.tears').fadeOut('slow')
+
+  console.log(hair);
+}};
 
 $('#unbald').click(givehair);
 
