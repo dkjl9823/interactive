@@ -1,12 +1,11 @@
 /* GENERAL */
 body {
-  background: gold;
+  background: whitesmoke;
   color: #333;
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ; */
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif ;
   padding: 0em 0em 0em 1em;
   margin: 0;
-  font-size: 1.25em;
+  font-size: 1.5em;
   user-select: none;
   transition: font-size 0.25s ease-in;
   border: 0.25em;
@@ -38,15 +37,15 @@ div {
 h1 {
   display: inline-block;
   font-weight: normal;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1em;
+  font-weight: normal;
   margin-bottom: 0;
 }
 
 h2 {
   font-weight: normal;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1em;
+  font-weight: normal;
 }
 
 h2:hover {
@@ -72,7 +71,7 @@ h2#exercises:hover {
 }
 
 hr {
-  border: 2px #333 solid;
+  border: 1px #333 solid;
   max-width: 200px;
   margin: 1em 0 0 0;
 }

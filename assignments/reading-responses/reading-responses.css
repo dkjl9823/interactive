@@ -1,23 +1,24 @@
 body {
-  background: gold;
+  background: white;
   color: #333;
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ; */
-  font-family: 'Source Code Pro', monospace;
-  line-height: 1.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif ;
+  margin: 0;
+  user-select: none;
   border: 0.25em;
   padding: 0em 1em;
+  transition: font-size 0.25s ease-in;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 700px;
-  background-color: white;
-  padding: 0.25em 1em;
+  max-width: 500px;
+  padding: 3em 0 0 0;
+  margin-bottom: 2em;
 }
 
 h1 {
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 h2 {
@@ -32,7 +33,6 @@ ul {
 a {
   color: #333;
   text-decoration: none;
-  border-bottom: 10px #333;
 }
 
 a:hover {
@@ -41,6 +41,11 @@ a:hover {
   transition: color 0.3s ease;
 }
 
-table {
-  border-collapse: collapse;
+hr {
+  border: 0.5px solid #333;
+  margin: 1em 0;
+}
+
+p {
+  line-height: 1.25em;
 }
