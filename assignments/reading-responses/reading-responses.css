@@ -6,7 +6,7 @@ body {
   user-select: none;
   border: 0.25em;
   padding: 0em 1em;
-  transition: font-size 0.25s ease-in;
+  transition: font-size 0.2s ease-in;
 }
 
 .container {
@@ -38,7 +38,7 @@ a {
 a:hover {
   color: peru;
   text-decoration-style: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 hr {

@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 // RANDOM NAME BUTTON
-  $('#button').click(function(){
+  $('#random-button').click(function(){
 
     var words = ["Daniel", "Kyungjae", "Dan", "Kyungj", "KJ", "경재", "다니엘", "대녈", "景宰", "[gjʌŋ.d͡ʑɛ]", "[dæ.njʌl]"];
     var random_word = words[Math.floor(Math.random()*words.length)];
@@ -10,94 +10,84 @@ $(document).ready(function(){
     });
 })
 
-// MENU TOGGLE - WEEKLY PROJECTS
+// PROJECT BUTTON
+  var projectstatus = 'noshow'
 
-var weeklystatus = 'weeklynoshow'
+  $('#project-button').click(function(){
 
-$("#weekly").click(function(){
-  if(weeklystatus == "weeklynoshow"){
-    $("#weeklylist").slideToggle("slow");
-    $("#weekly:hover").css("cursor", "n-resize");
-    weeklystatus = 'show'
-      $("#readinglist").slideUp("slow");
-      $("#exerciseslist").slideUp("slow");
-      $("#projectlist").slideUp("slow");
-      readingstatus = 'readingnoshow';
-      projectstatus = 'projectnoshow';
-      exercisesstatus = 'exercisesnoshow';
-  }
-  else {
-    $("#weeklylist").slideToggle("slow");
-    $("#weekly:hover").css("cursor", "s-resize");
-    weeklystatus = 'weeklynoshow';
-  }
-})
+    if(projectstatus == 'noshow'){
+      $(".project").css('font-size', '150%');
+      projectstatus = 'show'
+        $(".reading").css('font-size', '100%');
+        $(".exercise").css('font-size', '100%');
+        readingstatus = 'noshow';
+        exercisestatus = 'noshow';
+    }
+    else {
+      $(".project").css('font-size', '100%');
+      $(".reading").css('font-size', '100%');
+      $(".exercise").css('font-size', '100%');
+      projectstatus = 'noshow';
+    }
+  })
 
-// MENU TOGGLE - READING RESPONSES
+// READING BUTTON
+  var readingstatus = 'noshow'
 
-var readingstatus = 'readingnoshow'
+  $('#reading-button').click(function(){
 
-$("#reading").click(function(){
-  if(readingstatus == "readingnoshow"){
-    $("#readinglist").slideToggle("slow");
-    $("#reading:hover").css("cursor", "n-resize");
-    readingstatus = 'show'
-      $("#weeklylist").slideUp("slow");
-      $("#exerciseslist").slideUp("slow");
-      $("#projectlist").slideUp("slow");
-      projectstatus = 'projectnoshow';
-      exercisesstatus = 'exercisesnoshow';
-      weeklystatus = 'weeklynoshow';
-  }
-  else {
-    $("#readinglist").slideToggle("slow");
-    $("#reading:hover").css("cursor", "s-resize");
-    readingstatus = 'readingnoshow';
-  }
-})
+    if(readingstatus == 'noshow'){
+      $(".reading").css('font-size', '150%');
+      readingstatus = 'show'
+        $(".project").css('font-size', '100%');
+        $(".exercise").css('font-size', '100%');
+        projectstatus = 'noshow';
+        exercisestatus = 'noshow';
+    }
+    else {
+      $(".project").css('font-size', '100%');
+      $(".reading").css('font-size', '100%');
+      $(".exercise").css('font-size', '100%');
+      readingstatus = 'noshow';
+    }
+  })
 
-// MENU TOGGLE - PROJECTS
+// EXERCISE BUTTON
+  var exercisestatus = 'noshow'
 
-var projectstatus = 'projectnoshow'
+  $('#exercise-button').click(function(){
 
-$("#project").click(function(){
-  if(projectstatus == "projectnoshow"){
-    $("#projectlist").slideToggle("slow");
-    $("#project:hover").css("cursor", "n-resize");
-    projectstatus = 'show'
-      $("#weeklylist").slideUp("slow");
-      $("#readinglist").slideUp("slow");
-      $("#exerciseslist").slideUp("slow");
-      readingstatus = 'readingnoshow'
-      exercisesstatus = 'exercisesnoshow'
-      weeklystatus = 'weeklynoshow';
-  }
-  else {
-    $("#projectlist").slideToggle("slow");
-    $("#project:hover").css("cursor", "s-resize");
-    projectstatus = 'projectnoshow';
-  }
-})
+    if(exercisestatus == 'noshow'){
+      $(".exercise").css('font-size', '150%');
+      exercisestatus = 'show'
+        $(".project").css('font-size', '100%');
+        $(".reading").css('font-size', '100%');
+        projectstatus = 'noshow';
+        readingstatus = 'noshow';
+    }
+    else {
+      $(".project").css('font-size', '100%');
+      $(".reading").css('font-size', '100%');
+      $(".exercise").css('font-size', '100%');
+      exercisestatus = 'noshow';
+    }
+  })
 
-// MENU TOGGLE - EXERCISES
-
-var exercisesstatus = 'exercisesnoshow'
-
-$("#exercises").click(function(){
-  if(exercisesstatus == "exercisesnoshow"){
-    $("#exerciseslist").slideToggle("slow");
-    $("#exercises:hover").css("cursor", "n-resize");
-    exercisesstatus = 'show'
-      $("#weeklylist").slideUp("slow");
-      $("#readinglist").slideUp("slow");
-      $("#projectlist").slideUp("slow");
-      readingstatus = 'readingnoshow';
-      projectstatus = 'projectnoshow';
-      weeklystatus = 'weeklynoshow';
-  }
-  else {
-    $("#exerciseslist").slideToggle("slow");
-    $("#exercises:hover").css("cursor", "s-resize");
-    exercisesstatus = 'exercisesnoshow';
-  }
-})
+// MONTH SCROLL BUTTONS
+// $("#january-button").click(function() {
+//     $('html, body').animate({
+//         scrollTop: $("#january").offset().top
+//     });
+// });
+//
+// $("#february-button").click(function() {
+//     $('html, body').animate({
+//         scrollTop: $("#february").offset().top
+//     });
+// });
+//
+// $("#march-button").click(function() {
+//     $('html, body').animate({
+//         scrollTop: $("#march").offset().top
+//     });
+// });
