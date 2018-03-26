@@ -1,11 +1,79 @@
 body {
-
+  line-height: 0em;
+  background: darkslategray;
+  user-select: none;
 }
 
-/* LINES & GRID */
+.letter {
+  display: inline-block;
+  /* background: whitesmoke; */
+  margin: 0.25em;
+}
 
-/* LETTERS A-Z */
+.letter:hover {
+  cursor: row-resize;
+}
 
-/* NUMBERS 0-9 */
+.row {
+  display: block;
+}
 
-/* PUNCTUATION */
+.block {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.pblock {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  border-top: 2px whitesmoke solid;
+  transition: border-top 10s ease;
+}
+
+.bottom {
+  border-bottom: 2px whitesmoke solid;
+  transition: border-bottom 10s ease;
+}
+
+.left {
+  border-left: 2px whitesmoke solid;
+}
+
+.right {
+  border-right: 2px whitesmoke solid;
+}
+
+.color {
+  background: yellow;
+}
+
+.diagtt {
+  position: relative;
+  z-index: 1;
+  width: 160%;
+  height: 2px;
+  left: -25%;
+  top: 42.5%;
+  background-color: whitesmoke;
+  transform: rotate(-45deg);
+}
+
+.diagtb {
+  position: relative;
+  z-index: 1;
+  width: 160%;
+  height: 2px;
+  left: -25%;
+  top: 42.5%;
+  background-color: whitesmoke;
+  transform: rotate(45deg);
+}
