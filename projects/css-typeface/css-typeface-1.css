@@ -2,6 +2,8 @@ body {
   line-height: 0em;
   background: darkslategray;
   user-select: none;
+  margin: 5em auto;
+  width: 650px;
 }
 
 .letter {
