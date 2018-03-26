@@ -180,40 +180,39 @@ $(document).ready(function(){
     $('#4 .bottom').css("border-bottom-width", randomnumber);
   })
 
-  $('#5').click(function(){
+  $('#5').click(function fivesize(){
     var randomnumber = Math.floor(Math.random() * 498 + 2);
     $('#5 .top').css("border-top-width", randomnumber);
     $('#5 .bottom').css("border-bottom-width", randomnumber);
   })
 
-  $('#6').click(function(){
+  $('#6').click(function sixsize(){
     var randomnumber = Math.floor(Math.random() * 498 + 2);
     $('#6 .top').css("border-top-width", randomnumber);
     $('#6 .bottom').css("border-bottom-width", randomnumber);
   })
 
-  $('#7').click(function(){
+  $('#7').click(function sevensize(){
     var randomnumber = Math.floor(Math.random() * 498 + 2);
     $('#7 .top').css("border-top-width", randomnumber);
     $('#7 .bottom').css("border-bottom-width", randomnumber);
   })
 
-  $('#8').click(function(){
+  $('#8').click(function eightsize(){
     var randomnumber = Math.floor(Math.random() * 498 + 2);
     $('#8 .top').css("border-top-width", randomnumber);
     $('#8 .bottom').css("border-bottom-width", randomnumber);
   })
 
-  $('#9').click(function(){
+  $('#9').click(function ninesize(){
     var randomnumber = Math.floor(Math.random() * 498 + 2);
     $('#9 .top').css("border-top-width", randomnumber);
     $('#9 .bottom').css("border-bottom-width", randomnumber);
   })
 
-  $('#0').click(function(){
+  $('#0').click(function zerosize(){
     var randomnumber = Math.floor(Math.random() * 498 + 2);
     $('#0 .top').css("border-top-width", randomnumber);
     $('#0 .bottom').css("border-bottom-width", randomnumber);
   })
-
 })

@@ -1,9 +1,16 @@
 body {
   line-height: 0em;
-  background: darkslategray;
+  background: peru;
   user-select: none;
   margin: 5em auto;
-  width: 650px;
+  width: 90%;
+}
+
+.container {
+  position: fixed;
+  bottom: 5em;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .letter {
@@ -78,4 +85,13 @@ body {
   top: 42.5%;
   background-color: whitesmoke;
   transform: rotate(45deg);
+}
+
+.button {
+  position: fixed;
+  margin: 0 auto;
+  background: whitesmoke;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
