@@ -1,0 +1,127 @@
+/* REQUIRED CSS --- DO NOT DELETE */
+
+.letter-definition {
+	display: none;
+}
+
+/* CUSTOM TYPEFACE CSS --- INSERT YOUR OWN HERE */
+
+body {
+  line-height: 0em;
+  background: white;
+  user-select: none;
+  margin: 5em auto;
+  width: 90%;
+}
+
+#texts {
+  position: fixed;
+  left: 20em;
+  top: 4.75em;
+  width: 1100px;
+}
+
+#nav {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.letter {
+  display: inline-block;
+  margin: 0.25em;
+}
+
+.row {
+  display: block;
+}
+
+.block {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.tower .block {
+  width: 30px;
+  height: 30px;
+}
+
+.pblock {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  border-top: 1px #333 solid;
+  transition: border-top-width 5s;
+}
+
+.bottom {
+  border-bottom: 1px #333 solid;
+  transition: border-bottom-width 5s;
+}
+
+.left {
+  border-left: 1px #333 solid;
+}
+
+.right {
+  border-right: 1px #333 solid;
+}
+
+.color {
+  background: yellow;
+}
+
+.diagtt {
+  position: relative;
+  z-index: 1;
+  width: 160%;
+  height: 1px;
+  left: -25%;
+  top: 42.5%;
+  background-color: #333;
+  transform: rotate(-45deg);
+}
+
+.diagtb {
+  position: relative;
+  z-index: 1;
+  width: 160%;
+  height: 1px;
+  left: -25%;
+  top: 42.5%;
+  background-color: #333;
+  transform: rotate(45deg);
+}
+
+.button {
+  background: #333;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.button:hover {
+  cursor: row-resize;
+}
+
+.resize:hover {
+  cursor: row-resize;
+}
+
+.inline .block {
+  width: 5px;
+  height: 5px;
+}
