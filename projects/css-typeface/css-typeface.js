@@ -373,6 +373,90 @@ $('#lighthouse').click(function(){
 
 $('#construction').click(function(){
 
+    $('#a .top').css("border-top-width", 19 / 2);
+    $('#a .bottom').css("border-bottom-width", 19 / 2);
+
+    $('#b .top').css("border-top-width", 5 / 3);
+    $('#b .bottom').css("border-bottom-width", 5 / 3);
+
+    $('#c .top').css("border-top-width", 8 / 2);
+    $('#c .bottom').css("border-bottom-width", 8 / 2);
+
+    $('#d .top').css("border-top-width", 12 / 2);
+    $('#d .bottom').css("border-bottom-width", 12 / 2);
+
+    $('#e .top').css("border-top-width", 35 / 3);
+    $('#e .bottom').css("border-bottom-width", 35 / 3);
+
+    $('#f .top').css("border-top-width", 5 / 2);
+    $('#f .bottom').css("border-bottom-width", 5 / 2);
+
+    $('#g .top').css("border-top-width", 4 / 3);
+    $('#g .bottom').css("border-bottom-width", 4 / 3);
+
+    $('#h .top').css("border-top-width", 7 / 1);
+    $('#h .bottom').css("border-bottom-width", 7 / 1);
+
+    $('#i .top').css("border-top-width", 15 / 2);
+    $('#i .bottom').css("border-bottom-width", 15 / 2);
+
+    $('#j .top').css("border-top-width", 2 / 2);
+    $('#j .bottom').css("border-bottom-width", 2 / 2);
+
+    $('#k .top').css("border-top-width", 1 / 1);
+    $('#k .bottom').css("border-bottom-width", 1 / 1);
+
+    $('#l .top').css("border-top-width", 5 / 1);
+    $('#l .bottom').css("border-bottom-width", 5 / 1);
+
+    $('#m .top').css("border-top-width", 5 / 1);
+    $('#m .bottom').css("border-bottom-width", 5 / 1);
+
+    $('#n .top').css("border-top-width", 15 / 2);
+    $('#n .bottom').css("border-bottom-width", 15 / 2);
+
+    $('#o .top').css("border-top-width", 11 / 2);
+    $('#o .bottom').css("border-bottom-width", 11 / 2);
+
+    $('#p .top').css("border-top-width", 5 / 2);
+    $('#p .bottom').css("border-bottom-width", 5 / 2);
+
+    $('#q .top').css("border-top-width", 3 / 2);
+    $('#q .bottom').css("border-bottom-width", 3 / 2);
+
+    $('#r .top').css("border-top-width", 14 / 2);
+    $('#r .bottom').css("border-bottom-width", 14 / 2);
+
+    $('#s .top').css("border-top-width", 17 / 3);
+    $('#s .bottom').css("border-bottom-width", 17 / 3);
+
+    $('#t .top').css("border-top-width", 20 / 1);
+    $('#t .bottom').css("border-bottom-width", 20 / 1);
+
+    $('#u .top').css("border-top-width", 9 / 1);
+    $('#u .bottom').css("border-bottom-width", 9 / 1);
+
+    $('#v .top').css("border-top-width", 3 / 2);
+    $('#v .bottom').css("border-bottom-width", 3 / 2);
+
+    $('#w .top').css("border-top-width", 2 / 1);
+    $('#w .bottom').css("border-bottom-width", 2 / 1);
+
+    $('#x .top').css("border-top-width", 1.5 / 1);
+    $('#x .bottom').css("border-bottom-width", 1.5 / 1);
+
+    $('#y .top').css("border-top-width", 5 / 1);
+    $('#y .bottom').css("border-bottom-width", 5 / 1);
+
+    $('#z .top').css("border-top-width", 3 / 3);
+    $('#z .bottom').css("border-bottom-width", 3 / 3);
+
+    status = 'grown';
+    console.log(status)
+})
+
+$('#about').click(function(){
+
     $('#a .top').css("border-top-width", 31 / 2);
     $('#a .bottom').css("border-bottom-width", 31 / 2);
 
@@ -450,6 +534,36 @@ $('#construction').click(function(){
 
     $('#z .top').css("border-top-width", 3 / 3);
     $('#z .bottom').css("border-bottom-width", 3 / 3);
+
+    $('#1 .top').css("border-top-width", 2 * 1.5 / 2);
+    $('#1 .bottom').css("border-bottom-width", 2 * 1.5 / 2);
+
+    $('#2 .top').css("border-top-width", 4 / 3);
+    $('#2 .bottom').css("border-bottom-width", 4 / 3);
+
+    $('#3 .top').css("border-top-width", 4 / 3);
+    $('#3 .bottom').css("border-bottom-width", 4 / 3);
+
+    $('#4 .top').css("border-top-width", 1 / 1);
+    $('#4 .bottom').css("border-bottom-width", 1 / 1);
+
+    $('#5 .top').css("border-top-width", 3 / 3);
+    $('#5 .bottom').css("border-bottom-width", 3 / 3);
+
+    $('#6 .top').css("border-top-width", 4 / 3);
+    $('#6 .bottom').css("border-bottom-width", 4 / 3);
+
+    $('#7 .top').css("border-top-width", 1 / 1);
+    $('#7 .bottom').css("border-bottom-width", 1 / 1);
+
+    $('#8 .top').css("border-top-width", 4 / 3);
+    $('#8 .bottom').css("border-bottom-width", 4 / 3);
+
+    $('#9 .top').css("border-top-width", 4 / 3);
+    $('#9 .bottom').css("border-bottom-width", 4 / 3);
+
+    $('#0 .top').css("border-top-width", 3 / 2);
+    $('#0 .bottom').css("border-bottom-width", 3 / 2);
 
     status = 'grown';
     console.log(status)
