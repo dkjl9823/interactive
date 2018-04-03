@@ -14,35 +14,39 @@ div {
   display: block;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 500px;
-  height: 100%;
-  padding: 3em 0 2em 0;
-}
-
 #content {
   margin: 0 auto;
-  max-width: 620px;
+  max-width: 550px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  padding: 3em 0 2em 0;
+  grid-column-gap: 1em;
+}
+
+#head {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#nav {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#items {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 /* HEADERS */
 h1 {
-  display: inline-block;
   font-weight: normal;
   font-size: 1em;
   font-weight: normal;
-  margin: 0 0 0.5em 0;
 }
 
 h2 {
-  font-weight: normal;
-  font-size: 1em;
-  font-weight: normal;
-  margin-top: 2em;
-}
-
-h3 {
   font-weight: normal;
   font-size: 1em;
   font-weight: normal;
@@ -98,4 +102,8 @@ div#name {
 
 @media screen and (max-width: 800px) {
   #navbar { width: 200px; }
+}
+
+.soon {
+  opacity: 10%;
 }
