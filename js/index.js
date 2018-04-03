@@ -16,17 +16,17 @@ $(document).ready(function(){
   $('#project-button').click(function(){
 
     if(projectstatus == 'noshow'){
-      $(".project").css('font-size', '150%');
+      $(".project").css('background', '#FFFADE');
       projectstatus = 'show'
-        $(".reading").css('font-size', '100%');
-        $(".exercise").css('font-size', '100%');
+        $(".reading").css('background', 'none');
+        $(".exercise").css('background', 'none');
         readingstatus = 'noshow';
         exercisestatus = 'noshow';
     }
     else {
-      $(".project").css('font-size', '100%');
-      $(".reading").css('font-size', '100%');
-      $(".exercise").css('font-size', '100%');
+      $(".project").css('background', 'none');
+      $(".reading").css('background', 'none');
+      $(".exercise").css('background', 'none');
       projectstatus = 'noshow';
     }
   })
@@ -37,17 +37,17 @@ $(document).ready(function(){
   $('#reading-button').click(function(){
 
     if(readingstatus == 'noshow'){
-      $(".reading").css('font-size', '150%');
+      $(".reading").css('background', '#FFFADE');
       readingstatus = 'show'
-        $(".project").css('font-size', '100%');
-        $(".exercise").css('font-size', '100%');
+        $(".project").css('background', 'none');
+        $(".exercise").css('background', 'none');
         projectstatus = 'noshow';
         exercisestatus = 'noshow';
     }
     else {
-      $(".project").css('font-size', '100%');
-      $(".reading").css('font-size', '100%');
-      $(".exercise").css('font-size', '100%');
+      $(".project").css('background', 'none');
+      $(".reading").css('background', 'none');
+      $(".exercise").css('background', 'none');
       readingstatus = 'noshow';
     }
   })
@@ -58,17 +58,17 @@ $(document).ready(function(){
   $('#exercise-button').click(function(){
 
     if(exercisestatus == 'noshow'){
-      $(".exercise").css('font-size', '150%');
+      $(".exercise").css('background', '#FFFADE');
       exercisestatus = 'show'
-        $(".project").css('font-size', '100%');
-        $(".reading").css('font-size', '100%');
+        $(".project").css('background', 'none');
+        $(".reading").css('background', 'none');
         projectstatus = 'noshow';
         readingstatus = 'noshow';
     }
     else {
-      $(".project").css('font-size', '100%');
-      $(".reading").css('font-size', '100%');
-      $(".exercise").css('font-size', '100%');
+      $(".project").css('background', 'none');
+      $(".reading").css('background', 'none');
+      $(".exercise").css('background', 'none');
       exercisestatus = 'noshow';
     }
   })
