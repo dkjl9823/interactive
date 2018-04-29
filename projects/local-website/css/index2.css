@@ -1,0 +1,24 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: gray;
+  transition: font-size 150ms ease;
+  user-select: none;
+  background-color: white;
+  animation: bg 5s infinite ease;
+}
+
+p {
+  font-size: 3em;
+  margin: 8em 0 0 0;
+}
+
+@keyframes bg {
+  0%, 100% {background: black;}
+  50% {background: white;}
+}
+
+@media screen and (max-width: 760px){
+  body {font-size: 0.5em;}
+  img {width: 50px;}
+}

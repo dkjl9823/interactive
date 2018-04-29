@@ -1,0 +1,89 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: gray;
+  transition: font-size 150ms ease;
+  user-select: none;
+  background-color: black;
+}
+
+#calder {
+  animation: calder 3s infinite ;
+  margin: 5em auto 0 auto;
+}
+
+h1 {
+  font-size: 7.5em;
+  line-height: 0.5em;
+  /* text-decoration: underline; */
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  font-size: 2em;
+  line-height: 1.25em;
+  font-weight: normal;
+  margin: 0;
+}
+
+#text {
+  width: 50%;
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 0.75em;
+}
+
+#buttons {
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  /* position: fixed; */
+  bottom: 2em;
+  left: 2em;
+  /* width: 50px;
+  height: 50px;
+  border-radius: 50%; */
+  font-size: 2em;
+  margin: 0 0.25em;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.red {
+  color: orangered;
+}
+.blue {
+  color: dodgerblue;
+}
+.yellow {
+  color: gold;
+}
+.white {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1080px){
+  body {font-size: 0.75em;}
+}
+
+@media screen and (max-width: 760px){
+  body {font-size: 0.5em;}
+}
+
+@media screen and (max-width: 550px){
+  body {font-size: 0.35em;}
+}
+
+@keyframes calder {
+  0%, 100% {transform: rotate(0.5deg);}
+  50% {transform: rotate(-0.5deg);}
+}

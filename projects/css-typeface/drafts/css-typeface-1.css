@@ -1,0 +1,96 @@
+body {
+  line-height: 0em;
+  background: peru;
+  user-select: none;
+  margin: 5em auto;
+  width: 90%;
+}
+
+.container {
+  position: fixed;
+  bottom: 5em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.letter {
+  display: inline-block;
+  margin: 0.25em;
+}
+
+.letter:hover {
+  cursor: row-resize;
+}
+
+.row {
+  display: block;
+}
+
+.block {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.pblock {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  border-top: 2px whitesmoke solid;
+  transition: border-top-width 5s ease;
+}
+
+.bottom {
+  border-bottom: 2px whitesmoke solid;
+  transition: border-bottom-width 5s ease;
+}
+
+.left {
+  border-left: 2px whitesmoke solid;
+}
+
+.right {
+  border-right: 2px whitesmoke solid;
+}
+
+.color {
+  background: yellow;
+}
+
+.diagtt {
+  position: relative;
+  z-index: 1;
+  width: 160%;
+  height: 2px;
+  left: -25%;
+  top: 42.5%;
+  background-color: whitesmoke;
+  transform: rotate(-45deg);
+}
+
+.diagtb {
+  position: relative;
+  z-index: 1;
+  width: 160%;
+  height: 2px;
+  left: -25%;
+  top: 42.5%;
+  background-color: whitesmoke;
+  transform: rotate(45deg);
+}
+
+.button {
+  position: fixed;
+  margin: 0 auto;
+  background: whitesmoke;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

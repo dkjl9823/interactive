@@ -1,0 +1,54 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: black;
+  transition: font-size 150ms ease;
+  user-select: none;
+  background-color: black;
+  animation: bg 5s infinite ease;
+}
+
+a {
+  font-size: 7.5em;
+  text-decoration: none;
+  color: orangered;
+  line-height: 1em;
+}
+
+p {
+  font-size: 3em;
+  margin: 0;
+}
+
+.red {
+  color: orangered;
+}
+.blue {
+  color: dodgerblue;
+}
+.yellow {
+  color: gold;
+}
+.white {
+  color: gray;
+}
+
+img {
+  margin: 3em 0 2em 0;
+  animation: calder2 5s infinite ease;
+}
+
+@keyframes calder2 {
+  0%, 100% {transform: rotate(195deg);}
+  50% {transform: rotate(-15deg);}
+}
+
+@keyframes bg {
+  0%, 100% {background: black;}
+  50% {background: white;}
+}
+
+@media screen and (max-width: 760px){
+  body {font-size: 0.5em;}
+  img {width: 50px;}
+}
