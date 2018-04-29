@@ -1,0 +1,129 @@
+/* LETTERS */
+
+.letter-definition {
+ display: none;
+}
+
+.letter {
+  display: inline-block;
+  margin: 0.25em;
+}
+
+.row {
+  display: block;
+}
+
+.block {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  border-top: 1px #333 solid;
+  transition: border-top-width 5s;
+}
+
+.bottom {
+  border-bottom: 1px #333 solid;
+  transition: border-bottom-width 5s;
+}
+
+.left {
+  border-left: 1px #333 solid;
+}
+
+.right {
+  border-right: 1px #333 solid;
+}
+
+.diagtt {
+  position: relative;
+  z-index: 1;
+  width: 160%;
+  height: 1px;
+  left: -25%;
+  top: 42.5%;
+  background-color: #333;
+  transform: rotate(-45deg);
+}
+
+.diagtb {
+  position: relative;
+  z-index: 1;
+  width: 160%;
+  height: 1px;
+  left: -25%;
+  top: 42.5%;
+  background-color: #333;
+  transform: rotate(45deg);
+}
+
+/* LAYOUT */
+
+body {
+  line-height: 0em;
+  background: #DBDBDB;
+  user-select: none;
+  margin: 5em auto;
+  width: 90%;
+}
+
+#container {
+ display: grid;
+ grid-template-columns: 145px 1003px;
+ grid-template-rows: auto;
+ grid-gap: 50px;
+ margin: 0 auto;
+}
+
+#contents {
+ grid-column: 2/3;
+ grid-row: 1/2;
+ border: 1px solid #333;
+}
+
+#tower {
+ grid-column: 1/2;
+ background: white;
+ grid-row: 1/2;
+ border: 1px solid #333;
+}
+
+/* TEXT  */
+
+#tower .block {
+  width: 30px;
+  height: 30px;
+}
+
+.title .block {
+ width: 5px;
+ height: 5px;
+}
+
+/* HOVER AND ACTIVE */
+
+.link:hover {
+  cursor: pointer;
+ background: white;
+}
+
+a:hover {
+ cursor: row-resize;
+ background: white;
+}
+
+.link:active {
+ background: gray;
+}
+
+a:active {
+ background: gray;
+}
+
+.color {
+  background: white;
+}
