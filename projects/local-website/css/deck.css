@@ -28,6 +28,11 @@ p {
 
 a {
   text-decoration: none;
+  color: orangered;
+}
+
+a:visited {
+  color: orangered;
 }
 
 #content{
@@ -37,9 +42,15 @@ a {
   margin: 0 auto;
 }
 
-.pic {
+.big {
   width: 100%;
   margin: 0 auto;
+}
+
+.small {
+  width: 49%;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .button {
@@ -63,6 +74,13 @@ a {
 #logo {
   margin: 3em 0 2em 0;
   animation: calder2 5s infinite ease;
+}
+
+#footer {
+  font-size: 0.75em;
+  text-align: center;
+  margin: 0 auto;
+  width: 650px;
 }
 
 @keyframes calder2 {
