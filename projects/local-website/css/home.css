@@ -1,14 +1,16 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cinzel', 'Trajan', serif;
+  font-weight: normal;
   text-align: center;
   color: black;
   transition: font-size 150ms ease;
   user-select: none;
   background-color: white;
+  font-weight: normal;
 }
 
 #calder {
-  animation: calder 3s infinite ;
+  animation: calder 5s infinite ;
   margin-top: 5em;
 }
 

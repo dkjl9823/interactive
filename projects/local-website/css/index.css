@@ -1,5 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cinzel', 'Trajan', serif;
+  font-weight: normal;
   text-align: center;
   color: black;
   transition: font-size 150ms ease;
@@ -39,8 +40,8 @@ img {
 }
 
 @keyframes calder2 {
-  0%, 100% {transform: rotate(195deg);}
-  50% {transform: rotate(-15deg);}
+  0%, 100% {transform: rotate(5deg);}
+  50% {transform: rotate(-5deg);}
 }
 
 @keyframes bg {

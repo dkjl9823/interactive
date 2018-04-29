@@ -1,5 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cinzel', 'Trajan', serif;
+  font-weight: normal;
   text-align: center;
   color: gray;
   transition: font-size 150ms ease;
@@ -14,16 +15,19 @@ h1 {
   color: orangered;
   line-height: 1em;
   margin: 0;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 3em;
   margin: 0;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 2em;
   margin: 0;
+  font-weight: normal;
 }
 
 p {
@@ -89,8 +93,8 @@ a:visited {
 }
 
 @keyframes calder2 {
-  0%, 100% {transform: rotate(195deg);}
-  50% {transform: rotate(-15deg);}
+  0%, 100% {transform: rotate(5deg);}
+  50% {transform: rotate(-5deg);}
 }
 
 @keyframes bg {
